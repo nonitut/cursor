@@ -1,0 +1,47 @@
+.svg {
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.svg"), auto;
+}
+.png {
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png"), auto;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background: pink;
+  display: inline-block;
+  position: relative;
+  border: 1px solid white;
+}
+.test{
+  cursor: move;
+}
+.testone{
+  cursor: grab;
+}
+.testtwo{
+  cursor: alias;
+}
+.testfree{
+  cursor: help;
+}
+.testfre{
+  cursor: progress;
+}
+.testfr{
+  cursor:  zoom-in;
+}
+
+#draggable {
+	background: orange;
+	color: white;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	cursor: move;
+  display: inline-block;
+}
+#draggable:hover {
+	background: #FFF3F3;
+  border-radius: 100px;
+}
