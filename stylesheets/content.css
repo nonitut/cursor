@@ -10,7 +10,7 @@
   background: pink;
   display: inline-block;
   position: relative;
-  border: 1px solid white;
+  margin: 10px;
 }
 .test{
   cursor: move;
@@ -48,4 +48,6 @@
 .text{
   font-size: 70px;
   font-family: monospace;
+  margin: 20px;
+  color: pink;
 }
